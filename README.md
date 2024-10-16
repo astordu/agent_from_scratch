@@ -51,7 +51,7 @@ Agent的目标：可以回答用户关于天气的问题。
 ```
   messages.append({"role": "assistant",  "content": f"调用Action的结果:{tianqi}"})
   message = send_messages(messages)
-  print(f"Model-second>\2 {message.content}")
+  print(f"Model-second>\n {message.content}")
 ```
 
 # 运行结果
